@@ -3,16 +3,16 @@ TKTestKit
 
 iOS library for testing.
 
-# Overview
+## Overview
 
 _TKAsyncTestCase_ is a SenTestCase subclass for asynchronous test cases, like when testing blocks.
 
 
-# Requirements
+## Requirements
 
 - SenTestKit.framework
 
-# Documentation
+## Documentation
 
 install appledoc:
 
@@ -22,7 +22,7 @@ build the _TKTestKitDocumentation_ target,
 
 the documentation will be automatically added to Xcode.
 
-# Credits
+## Credits
 
 Arnaud Coomans
 
