@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51D8212415B8AF010072211E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D8212315B8AF010072211E /* Foundation.framework */; };
+		51D8212A15B8AF010072211E /* TKTestKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D8212915B8AF010072211E /* TKTestKit.m */; };
+		51D8213215B8AF010072211E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D8213115B8AF010072211E /* SenTestingKit.framework */; };
+		51D8213415B8AF010072211E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D8213315B8AF010072211E /* UIKit.framework */; };
+		51D8213515B8AF010072211E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D8212315B8AF010072211E /* Foundation.framework */; };
+		51D8213815B8AF010072211E /* libTKTestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D8212015B8AF010072211E /* libTKTestKit.a */; };
+		51D8213E15B8AF010072211E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51D8213C15B8AF010072211E /* InfoPlist.strings */; };
+		51D8214115B8AF010072211E /* TKTestKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D8214015B8AF010072211E /* TKTestKitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51D8213615B8AF010072211E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51D8211715B8AF010072211E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51D8211F15B8AF010072211E;
+			remoteInfo = TKTestKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51D8212015B8AF010072211E /* libTKTestKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTKTestKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D8212315B8AF010072211E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		51D8212715B8AF010072211E /* TKTestKit-Prefix.pch */ = {isa = PBXFileReference; path = "TKTestKit-Prefix.pch"; sourceTree = "<group>"; };
+		51D8212815B8AF010072211E /* TKTestKit.h */ = {isa = PBXFileReference; path = TKTestKit.h; sourceTree = "<group>"; };
+		51D8212915B8AF010072211E /* TKTestKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTestKit.m; sourceTree = "<group>"; };
+		51D8213015B8AF010072211E /* TKTestKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKTestKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D8213115B8AF010072211E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		51D8213315B8AF010072211E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		51D8213B15B8AF010072211E /* TKTestKitTests-Info.plist */ = {isa = PBXFileReference; path = "TKTestKitTests-Info.plist"; sourceTree = "<group>"; };
+		51D8213D15B8AF010072211E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51D8213F15B8AF010072211E /* TKTestKitTests.h */ = {isa = PBXFileReference; path = TKTestKitTests.h; sourceTree = "<group>"; };
+		51D8214015B8AF010072211E /* TKTestKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTestKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51D8211D15B8AF010072211E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D8212415B8AF010072211E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D8212C15B8AF010072211E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D8213215B8AF010072211E /* SenTestingKit.framework in Frameworks */,
+				51D8213415B8AF010072211E /* UIKit.framework in Frameworks */,
+				51D8213515B8AF010072211E /* Foundation.framework in Frameworks */,
+				51D8213815B8AF010072211E /* libTKTestKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51D8211515B8AF010072211E = {
+			isa = PBXGroup;
+			children = (
+				51D8212515B8AF010072211E /* TKTestKit */,
+				51D8213915B8AF010072211E /* TKTestKitTests */,
+				51D8212215B8AF010072211E /* Frameworks */,
+				51D8212115B8AF010072211E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51D8212115B8AF010072211E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51D8212015B8AF010072211E /* libTKTestKit.a */,
+				51D8213015B8AF010072211E /* TKTestKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51D8212215B8AF010072211E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51D8212315B8AF010072211E /* Foundation.framework */,
+				51D8213115B8AF010072211E /* SenTestingKit.framework */,
+				51D8213315B8AF010072211E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51D8212515B8AF010072211E /* TKTestKit */ = {
+			isa = PBXGroup;
+			children = (
+				51D8212815B8AF010072211E /* TKTestKit.h */,
+				51D8212915B8AF010072211E /* TKTestKit.m */,
+				51D8212615B8AF010072211E /* Supporting Files */,
+			);
+			path = TKTestKit;
+			sourceTree = "<group>";
+		};
+		51D8212615B8AF010072211E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51D8212715B8AF010072211E /* TKTestKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51D8213915B8AF010072211E /* TKTestKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				51D8213F15B8AF010072211E /* TKTestKitTests.h */,
+				51D8214015B8AF010072211E /* TKTestKitTests.m */,
+				51D8213A15B8AF010072211E /* Supporting Files */,
+			);
+			path = TKTestKitTests;
+			sourceTree = "<group>";
+		};
+		51D8213A15B8AF010072211E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51D8213B15B8AF010072211E /* TKTestKitTests-Info.plist */,
+				51D8213C15B8AF010072211E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		51D8211E15B8AF010072211E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		51D8211F15B8AF010072211E /* TKTestKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51D8214415B8AF010072211E /* Build configuration list for PBXNativeTarget "TKTestKit" */;
+			buildPhases = (
+				51D8211C15B8AF010072211E /* Sources */,
+				51D8211D15B8AF010072211E /* Frameworks */,
+				51D8211E15B8AF010072211E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKTestKit;
+			productName = TKTestKit;
+			productReference = 51D8212015B8AF010072211E /* libTKTestKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		51D8212F15B8AF010072211E /* TKTestKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51D8214715B8AF010072211E /* Build configuration list for PBXNativeTarget "TKTestKitTests" */;
+			buildPhases = (
+				51D8212B15B8AF010072211E /* Sources */,
+				51D8212C15B8AF010072211E /* Frameworks */,
+				51D8212D15B8AF010072211E /* Resources */,
+				51D8212E15B8AF010072211E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51D8213715B8AF010072211E /* PBXTargetDependency */,
+			);
+			name = TKTestKitTests;
+			productName = TKTestKitTests;
+			productReference = 51D8213015B8AF010072211E /* TKTestKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51D8211715B8AF010072211E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 51D8211A15B8AF010072211E /* Build configuration list for PBXProject "TKTestKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 51D8211515B8AF010072211E;
+			productRefGroup = 51D8212115B8AF010072211E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51D8211F15B8AF010072211E /* TKTestKit */,
+				51D8212F15B8AF010072211E /* TKTestKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51D8212D15B8AF010072211E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D8213E15B8AF010072211E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51D8212E15B8AF010072211E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51D8211C15B8AF010072211E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D8212A15B8AF010072211E /* TKTestKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D8212B15B8AF010072211E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D8214115B8AF010072211E /* TKTestKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51D8213715B8AF010072211E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51D8211F15B8AF010072211E /* TKTestKit */;
+			targetProxy = 51D8213615B8AF010072211E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51D8213C15B8AF010072211E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51D8213D15B8AF010072211E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51D8214215B8AF010072211E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51D8214315B8AF010072211E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51D8214515B8AF010072211E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TKTestKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKTestKit/TKTestKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		51D8214615B8AF010072211E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TKTestKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKTestKit/TKTestKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		51D8214815B8AF010072211E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKTestKit/TKTestKit-Prefix.pch";
+				INFOPLIST_FILE = "TKTestKitTests/TKTestKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		51D8214915B8AF010072211E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKTestKit/TKTestKit-Prefix.pch";
+				INFOPLIST_FILE = "TKTestKitTests/TKTestKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51D8211A15B8AF010072211E /* Build configuration list for PBXProject "TKTestKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51D8214215B8AF010072211E /* Debug */,
+				51D8214315B8AF010072211E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51D8214415B8AF010072211E /* Build configuration list for PBXNativeTarget "TKTestKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51D8214515B8AF010072211E /* Debug */,
+				51D8214615B8AF010072211E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		51D8214715B8AF010072211E /* Build configuration list for PBXNativeTarget "TKTestKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51D8214815B8AF010072211E /* Debug */,
+				51D8214915B8AF010072211E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51D8211715B8AF010072211E /* Project object */;
+}
