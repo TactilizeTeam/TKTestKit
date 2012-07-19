@@ -56,7 +56,7 @@
 		51D8213D15B8AF010072211E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51D8213F15B8AF010072211E /* TKTestKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKTestKitTests.h; sourceTree = "<group>"; };
 		51D8214015B8AF010072211E /* TKTestKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTestKitTests.m; sourceTree = "<group>"; };
-		51D8214A15B8AF170072211E /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		51D8214A15B8AF170072211E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		51D8215115B8B0FA0072211E /* TKAsyncTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAsyncTestCase.h; sourceTree = "<group>"; };
 		51D8215215B8B0FA0072211E /* TKAsyncTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAsyncTestCase.m; sourceTree = "<group>"; };
 		51D8215715B8B6CA0072211E /* TKAsyncTestCaseTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAsyncTestCaseTests.h; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		51D8211515B8AF010072211E = {
 			isa = PBXGroup;
 			children = (
-				51D8214A15B8AF170072211E /* README */,
+				51D8214A15B8AF170072211E /* README.md */,
 				51D8212515B8AF010072211E /* TKTestKit */,
 				51D8213915B8AF010072211E /* TKTestKitTests */,
 				51D8212215B8AF010072211E /* Frameworks */,
@@ -467,6 +467,7 @@
 				51D8214615B8AF010072211E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51D8214715B8AF010072211E /* Build configuration list for PBXNativeTarget "TKTestKitTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +476,7 @@
 				51D8214915B8AF010072211E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51D8214C15B8AF4D0072211E /* Build configuration list for PBXAggregateTarget "TKTestKitDocumentation" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +485,7 @@
 				51D8214E15B8AF4D0072211E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
