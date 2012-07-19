@@ -1,13 +1,13 @@
 //
-//  TKTestKit.m
+//  TKAsyncTestCaseTests.h
 //  TKTestKit
 //
 //  Created by Arnaud Coomans on 19/07/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "TKTestKit.h"
+#import "TKAsyncTestCase.h"
 
-@implementation TKTestKit
-
+@interface TKAsyncTestCaseTests : TKAsyncTestCase
+- (void)unblock;
 @end

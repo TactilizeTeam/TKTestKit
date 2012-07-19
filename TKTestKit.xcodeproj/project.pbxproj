@@ -6,15 +6,32 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		51D8214B15B8AF4D0072211E /* TKTestKitDocumentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 51D8214C15B8AF4D0072211E /* Build configuration list for PBXAggregateTarget "TKTestKitDocumentation" */;
+			buildPhases = (
+				51D8214F15B8AF570072211E /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = TKTestKitDocumentation;
+			productName = TKTestKitDocumentation;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		51D8212415B8AF010072211E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D8212315B8AF010072211E /* Foundation.framework */; };
-		51D8212A15B8AF010072211E /* TKTestKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D8212915B8AF010072211E /* TKTestKit.m */; };
 		51D8213215B8AF010072211E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D8213115B8AF010072211E /* SenTestingKit.framework */; };
 		51D8213415B8AF010072211E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D8213315B8AF010072211E /* UIKit.framework */; };
 		51D8213515B8AF010072211E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D8212315B8AF010072211E /* Foundation.framework */; };
 		51D8213815B8AF010072211E /* libTKTestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D8212015B8AF010072211E /* libTKTestKit.a */; };
 		51D8213E15B8AF010072211E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51D8213C15B8AF010072211E /* InfoPlist.strings */; };
 		51D8214115B8AF010072211E /* TKTestKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D8214015B8AF010072211E /* TKTestKitTests.m */; };
+		51D8215315B8B0FA0072211E /* TKAsyncTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D8215115B8B0FA0072211E /* TKAsyncTestCase.h */; };
+		51D8215415B8B0FA0072211E /* TKAsyncTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D8215215B8B0FA0072211E /* TKAsyncTestCase.m */; };
+		51D8215515B8B10D0072211E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D8213115B8AF010072211E /* SenTestingKit.framework */; };
+		51D8215915B8B6CA0072211E /* TKAsyncTestCaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D8215815B8B6CA0072211E /* TKAsyncTestCaseTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +47,20 @@
 /* Begin PBXFileReference section */
 		51D8212015B8AF010072211E /* libTKTestKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTKTestKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D8212315B8AF010072211E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		51D8212715B8AF010072211E /* TKTestKit-Prefix.pch */ = {isa = PBXFileReference; path = "TKTestKit-Prefix.pch"; sourceTree = "<group>"; };
-		51D8212815B8AF010072211E /* TKTestKit.h */ = {isa = PBXFileReference; path = TKTestKit.h; sourceTree = "<group>"; };
-		51D8212915B8AF010072211E /* TKTestKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTestKit.m; sourceTree = "<group>"; };
+		51D8212715B8AF010072211E /* TKTestKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TKTestKit-Prefix.pch"; sourceTree = "<group>"; };
+		51D8212815B8AF010072211E /* TKTestKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKTestKit.h; sourceTree = "<group>"; };
 		51D8213015B8AF010072211E /* TKTestKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKTestKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D8213115B8AF010072211E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		51D8213315B8AF010072211E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		51D8213B15B8AF010072211E /* TKTestKitTests-Info.plist */ = {isa = PBXFileReference; path = "TKTestKitTests-Info.plist"; sourceTree = "<group>"; };
+		51D8213B15B8AF010072211E /* TKTestKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TKTestKitTests-Info.plist"; sourceTree = "<group>"; };
 		51D8213D15B8AF010072211E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		51D8213F15B8AF010072211E /* TKTestKitTests.h */ = {isa = PBXFileReference; path = TKTestKitTests.h; sourceTree = "<group>"; };
+		51D8213F15B8AF010072211E /* TKTestKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKTestKitTests.h; sourceTree = "<group>"; };
 		51D8214015B8AF010072211E /* TKTestKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTestKitTests.m; sourceTree = "<group>"; };
+		51D8214A15B8AF170072211E /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		51D8215115B8B0FA0072211E /* TKAsyncTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAsyncTestCase.h; sourceTree = "<group>"; };
+		51D8215215B8B0FA0072211E /* TKAsyncTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAsyncTestCase.m; sourceTree = "<group>"; };
+		51D8215715B8B6CA0072211E /* TKAsyncTestCaseTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAsyncTestCaseTests.h; sourceTree = "<group>"; };
+		51D8215815B8B6CA0072211E /* TKAsyncTestCaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAsyncTestCaseTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D8215515B8B10D0072211E /* SenTestingKit.framework in Frameworks */,
 				51D8212415B8AF010072211E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +90,7 @@
 		51D8211515B8AF010072211E = {
 			isa = PBXGroup;
 			children = (
+				51D8214A15B8AF170072211E /* README */,
 				51D8212515B8AF010072211E /* TKTestKit */,
 				51D8213915B8AF010072211E /* TKTestKitTests */,
 				51D8212215B8AF010072211E /* Frameworks */,
@@ -97,8 +120,8 @@
 		51D8212515B8AF010072211E /* TKTestKit */ = {
 			isa = PBXGroup;
 			children = (
+				51D8215015B8B0FA0072211E /* Classes */,
 				51D8212815B8AF010072211E /* TKTestKit.h */,
-				51D8212915B8AF010072211E /* TKTestKit.m */,
 				51D8212615B8AF010072211E /* Supporting Files */,
 			);
 			path = TKTestKit;
@@ -115,6 +138,7 @@
 		51D8213915B8AF010072211E /* TKTestKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				51D8215615B8B6AC0072211E /* Classes */,
 				51D8213F15B8AF010072211E /* TKTestKitTests.h */,
 				51D8214015B8AF010072211E /* TKTestKitTests.m */,
 				51D8213A15B8AF010072211E /* Supporting Files */,
@@ -131,6 +155,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		51D8215015B8B0FA0072211E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				51D8215115B8B0FA0072211E /* TKAsyncTestCase.h */,
+				51D8215215B8B0FA0072211E /* TKAsyncTestCase.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		51D8215615B8B6AC0072211E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				51D8215715B8B6CA0072211E /* TKAsyncTestCaseTests.h */,
+				51D8215815B8B6CA0072211E /* TKAsyncTestCaseTests.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -138,6 +180,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D8215315B8B0FA0072211E /* TKAsyncTestCase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +245,7 @@
 			targets = (
 				51D8211F15B8AF010072211E /* TKTestKit */,
 				51D8212F15B8AF010072211E /* TKTestKitTests */,
+				51D8214B15B8AF4D0072211E /* TKTestKitDocumentation */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +275,19 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		51D8214F15B8AF570072211E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/appledoc \\\n--project-name \"TKTestKit\" \\\n--project-company \"Tactilize\" \\\n--company-id \"com.tactilize\" \\\n--output build \\\n--docsetutil-path `xcode-select -print-path`/usr/bin/docsetutil \\\n--create-docset \\\n--install-docset \\\n--create-html \\\n--exit-threshold 2 \\\n--no-repeat-first-par \\\nTKTestKit";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -238,7 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51D8212A15B8AF010072211E /* TKTestKit.m in Sources */,
+				51D8215415B8B0FA0072211E /* TKAsyncTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D8214115B8AF010072211E /* TKTestKitTests.m in Sources */,
+				51D8215915B8B6CA0072211E /* TKAsyncTestCaseTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +376,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/TKTestKit.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TKTestKit/TKTestKit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
@@ -330,6 +392,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/TKTestKit.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TKTestKit/TKTestKit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
@@ -368,6 +434,20 @@
 			};
 			name = Release;
 		};
+		51D8214D15B8AF4D0072211E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		51D8214E15B8AF4D0072211E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -393,6 +473,14 @@
 			buildConfigurations = (
 				51D8214815B8AF010072211E /* Debug */,
 				51D8214915B8AF010072211E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		51D8214C15B8AF4D0072211E /* Build configuration list for PBXAggregateTarget "TKTestKitDocumentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51D8214D15B8AF4D0072211E /* Debug */,
+				51D8214E15B8AF4D0072211E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
