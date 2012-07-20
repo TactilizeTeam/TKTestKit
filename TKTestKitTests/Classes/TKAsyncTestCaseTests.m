@@ -46,6 +46,25 @@
 	}];
 }
 
+- (void)testAsyncMultipleWaitForDelay {
+	[self asyncPrepare];
+	
+	NSDate *date = [NSDate date];
+	[self asyncWaitForDelay:3];
+	STAssertTrue([[NSDate date] timeIntervalSinceDate:date] < 5, @"Async test waited for too long");
+	STAssertTrue([[NSDate date] timeIntervalSinceDate:date] > 2, @"Async test didn't wait long enough");
+	
+	date = [NSDate date];
+	[self asyncWaitForDelay:3];
+	STAssertTrue([[NSDate date] timeIntervalSinceDate:date] < 5, @"Async test waited for too long");
+	STAssertTrue([[NSDate date] timeIntervalSinceDate:date] > 2, @"Async test didn't wait long enough");
+	
+	date = [NSDate date];
+	[self asyncWaitForDelay:3];
+	STAssertTrue([[NSDate date] timeIntervalSinceDate:date] < 5, @"Async test waited for too long");
+	STAssertTrue([[NSDate date] timeIntervalSinceDate:date] > 2, @"Async test didn't wait long enough");
+}
+
 
 #pragma mark - helpers
 
