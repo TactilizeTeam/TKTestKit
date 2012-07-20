@@ -11,7 +11,6 @@
 @implementation TKAsyncTestCaseTests
 
 - (void)testAsyncWaitForDelay {
-	[self asyncPrepare];
 	
 	NSDate *date = [NSDate date];
 	
@@ -22,7 +21,6 @@
 }
 
 - (void)testAsyncWaitForLongDelay {
-	[self asyncPrepare];
 	
 	[self performSelector:@selector(unblock) withObject:nil afterDelay:3];
 	
@@ -35,7 +33,6 @@
 
 
 - (void)testAsyncWaitForShortDelay {
-	[self asyncPrepare];
 	
 	[self performSelector:@selector(unblock) withObject:nil afterDelay:10];
 	
@@ -47,7 +44,6 @@
 }
 
 - (void)testAsyncMultipleWaitForDelay {
-	[self asyncPrepare];
 	
 	NSDate *date = [NSDate date];
 	[self asyncWaitForDelay:3];

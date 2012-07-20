@@ -12,6 +12,12 @@ static NSUInteger TKAsyncTestCaseLoopInterval = 1;
 
 @implementation TKAsyncTestCase
 
+
+- (void)setUp {
+    [super setUp];
+	[self asyncPrepare];
+}
+
 - (void)asyncPrepare {
 	_semaphore = dispatch_semaphore_create(0);
 }

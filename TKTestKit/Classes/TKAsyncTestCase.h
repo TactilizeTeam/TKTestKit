@@ -11,10 +11,9 @@
 
 /** TKTestCase is a class to do asynchronous testing. It may be used to test delay-prone operations like network requests or blocks.
  *
- * To use, first call the _asyncPrepare_ method at the beginning of the test case. Then, call _asyncContinue_ in any asynchronous code. Finally, put either _asyncFailAfterDelay:message:_ or _asyncFailAfterDelay:_ or _asyncWaitForDelay:_ at the end of your test case. Example:
+ * To use, call _asyncContinue_ in any asynchronous code. Finally, put either _asyncFailAfterDelay:message:_ or _asyncFailAfterDelay:_ or _asyncWaitForDelay:_ at the end of your test case. Example:
  *
  * 		- (void)testAsync {
- *			[self asyncPrepare];
  *			[someObject doSomethingAndOnSuccess:^(NSArray *pages) {
  *				STAssertTrue(..., @"oops, this is wrong");
  *				[self asyncContinue];
