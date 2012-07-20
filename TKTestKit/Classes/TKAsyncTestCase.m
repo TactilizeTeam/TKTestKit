@@ -53,14 +53,10 @@ static NSUInteger TKAsyncTestCaseLoopInterval = 1;
 								 beforeDate:[NSDate dateWithTimeIntervalSinceNow:TKAsyncTestCaseLoopInterval]];
 		if ([[NSDate date] timeIntervalSinceDate:date] > seconds) {
 			after();
-			dispatch_semaphore_signal(_semaphore);
-			dispatch_release(_semaphore);
 			return;
 		}
 	}
 	before();
-	dispatch_semaphore_signal(_semaphore);
-	dispatch_release(_semaphore);
 }
 
 @end
