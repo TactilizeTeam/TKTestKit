@@ -1,14 +1,14 @@
 //
-//  TKFactorapiClient.m
+//  TKBackdoorClient.m
 //  TKTestKit
 //
 //  Created by Louis-Alban KIM on 15/11/12.
 //
 //
 
-#import "TKFactorapiClient.h"
+#import "TKBackdoorClient.h"
 
-@implementation TKFactorapiClient
+@implementation TKBackdoorClient
 
 @synthesize inputStream;
 @synthesize outputStream;
@@ -36,10 +36,6 @@
 - (void)close {
     [self.inputStream close];
     [self.outputStream close];
-}
-
-- (void)setup {
-    [self execute:@"start"];
 }
 
 - (void)teardown {

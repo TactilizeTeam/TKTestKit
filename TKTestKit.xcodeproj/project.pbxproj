@@ -32,8 +32,8 @@
 		51D8215415B8B0FA0072211E /* TKAsyncTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D8215215B8B0FA0072211E /* TKAsyncTestCase.m */; };
 		51D8215515B8B10D0072211E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D8213115B8AF010072211E /* SenTestingKit.framework */; };
 		51D8215915B8B6CA0072211E /* TKAsyncTestCaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D8215815B8B6CA0072211E /* TKAsyncTestCaseTests.m */; };
-		E73860ED16553E0E005D4448 /* TKFactorapiClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E73860EB16553E0E005D4448 /* TKFactorapiClient.h */; };
-		E73860EE16553E0E005D4448 /* TKFactorapiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E73860EC16553E0E005D4448 /* TKFactorapiClient.m */; };
+		E73860ED16553E0E005D4448 /* TKBackdoorClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E73860EB16553E0E005D4448 /* TKBackdoorClient.h */; };
+		E73860EE16553E0E005D4448 /* TKBackdoorClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E73860EC16553E0E005D4448 /* TKBackdoorClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +63,8 @@
 		51D8215215B8B0FA0072211E /* TKAsyncTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAsyncTestCase.m; sourceTree = "<group>"; };
 		51D8215715B8B6CA0072211E /* TKAsyncTestCaseTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAsyncTestCaseTests.h; sourceTree = "<group>"; };
 		51D8215815B8B6CA0072211E /* TKAsyncTestCaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAsyncTestCaseTests.m; sourceTree = "<group>"; };
-		E73860EB16553E0E005D4448 /* TKFactorapiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFactorapiClient.h; sourceTree = "<group>"; };
-		E73860EC16553E0E005D4448 /* TKFactorapiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFactorapiClient.m; sourceTree = "<group>"; };
+		E73860EB16553E0E005D4448 /* TKBackdoorClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKBackdoorClient.h; sourceTree = "<group>"; };
+		E73860EC16553E0E005D4448 /* TKBackdoorClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKBackdoorClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,8 +164,8 @@
 			children = (
 				51D8215115B8B0FA0072211E /* TKAsyncTestCase.h */,
 				51D8215215B8B0FA0072211E /* TKAsyncTestCase.m */,
-				E73860EB16553E0E005D4448 /* TKFactorapiClient.h */,
-				E73860EC16553E0E005D4448 /* TKFactorapiClient.m */,
+				E73860EB16553E0E005D4448 /* TKBackdoorClient.h */,
+				E73860EC16553E0E005D4448 /* TKBackdoorClient.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -187,7 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D8215315B8B0FA0072211E /* TKAsyncTestCase.h in Headers */,
-				E73860ED16553E0E005D4448 /* TKFactorapiClient.h in Headers */,
+				E73860ED16553E0E005D4448 /* TKBackdoorClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D8215415B8B0FA0072211E /* TKAsyncTestCase.m in Sources */,
-				E73860EE16553E0E005D4448 /* TKFactorapiClient.m in Sources */,
+				E73860EE16553E0E005D4448 /* TKBackdoorClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

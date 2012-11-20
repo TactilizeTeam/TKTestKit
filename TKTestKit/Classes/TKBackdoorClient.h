@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TKFactorapiClient : NSObject
+@interface TKBackdoorClient : NSObject
 
 @property (nonatomic, strong) NSInputStream *inputStream;
 @property (nonatomic, strong) NSOutputStream *outputStream;
@@ -16,7 +16,6 @@
 - (id)initWithHostname:(NSString *)hostname port:(NSUInteger)port;
 - (void)open;
 - (void)close;
-- (void)setup;
 - (void)teardown;
 - (BOOL)execute:(NSString *)code;
 - (NSString *)readResponse;
